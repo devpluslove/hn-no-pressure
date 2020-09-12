@@ -1,17 +1,29 @@
-/* Topbar: Hide user score */
-#hnmain > tbody > tr:nth-child(1) > td > table > tbody > tr > td:nth-child(3) > span {
+/* Hide score */
+
+/* Top bar */
+#hnmain>tbody>tr:nth-child(1)>td>table>tbody>tr>td:nth-child(3)>span {
   font-size: 0 !important;
 }
 
-#hnmain > tbody > tr:nth-child(1) > td > table > tbody > tr > td:nth-child(3) > span * {
+#hnmain>tbody>tr:nth-child(1)>td>table>tbody>tr>td:nth-child(3)>span * {
   font-size: 10pt !important;
 }
 
-#hnmain > tbody > tr:nth-child(1) > td > table > tbody > tr > td:nth-child(3) > span > a:nth-child(1) {
+#hnmain>tbody>tr:nth-child(1)>td>table>tbody>tr>td:nth-child(3)>span>a:nth-child(1) {
   margin-right: 20px !important;
 }
 
-/* Main page and discuss page: Hide scores */
-#hnmain > tbody td.subtext span.score {
+/* Main page and discussion page */
+#hnmain>tbody td.subtext span.score {
+  display: none !important;
+}
+
+/* Profile page */
+#hnmain>tbody>tr:nth-child(3)>td>form>table>tbody>tr:nth-child(3) {
+  display: none !important;
+}
+
+/* Threads page */
+#hnmain .comhead .score {
   display: none !important;
 }

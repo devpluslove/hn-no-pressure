@@ -2,7 +2,7 @@
 
 This extension hides user and news scores.
 
-✨ It is now available on the Chrome store (which can also be used on Edge), you can install it directly from https://chrome.google.com/webstore/detail/hackernews-no-pressure/bonmddkjpellaijbbpejnboedneopbgp.
+✨ It is now available on the Chrome store (which can also be used on Edge), you can install it directly from [this link](https://chrome.google.com/webstore/detail/hackernews-no-pressure/bonmddkjpellaijbbpejnboedneopbgp).
 
 
 ## Installation
